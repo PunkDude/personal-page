@@ -1,0 +1,149 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#header-box {
+    width: 100%;
+    background-color: #751818;
+    padding-left: 20px;
+    padding: 6px;
+}
+
+#header-box div {
+    display: inline;
+    padding-right: 20px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+#header-box a {
+    text-decoration: none;
+}
+
+#banner-container {
+    background-color: #E7E7E7;
+    display: flex;
+    align-items: center;
+}
+
+#banner-text-box {
+    width: 50%;
+    color: black;
+    font-family: 'Happy Monkey', cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+#banner-image-box {
+    width: 50%;
+    padding: 40px;
+}
+
+#banner-image-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 185px;
+    height: 240px;
+}
+
+.content-body {
+    margin-top: 30px;
+}
+
+#section-title {
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    padding-bottom: none;
+}
+
+#title-line {
+    width: 30%;
+    border-top: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-container {
+    /* width: 100%; */
+    display: flex;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.text-container div{
+    width: 50%;
+}
+
+.text-container p {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: justify;
+    font-family: 'Hind', sans-serif;
+    text-indent: 20px;
+    font-size: 15px;
+}
+
+.content-container {
+    display: flex;
+    margin: 30px;
+}
+
+.container-text-box {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.content-title {
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.content-text-box, .content-image {
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.content-text-box {
+    text-align: justify;
+    font-family: 'Hind', sans-serif;
+    text-indent: 20px;
+    font-size: 15px;
+}
+
+.content-image {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 60%;
+    height: 100%;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social-media img{
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 150px;
+    max-height: 150px;
+}
